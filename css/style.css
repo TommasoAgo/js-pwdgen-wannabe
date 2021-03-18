@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #08b157;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    line-height: 16;
+}
+
+body {
+    font-family: "Abel";
+    background-size: cover;
+    padding-top: 40px;
+    background-image: url(../img/matrix.jpg);
+}
+
+/* Password Big Thing */
+.password-big-thing {
+    width: 60%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 40px;
+}
+
+/* Password Container */
+.password-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
